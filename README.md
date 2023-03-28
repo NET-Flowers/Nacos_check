@@ -3,7 +3,7 @@ QVD-2023-6271身份登录绕过
 Nacos 平台在默认配置下未对 token.secret.key 进行修改，攻击者通过漏洞可以获取服务器数据库/OSS等权限。
 
 
-#工具利用
+# 工具利用
 
 python nacos_check.py -u http://127.0.0.1:1111 单个url测试
 
