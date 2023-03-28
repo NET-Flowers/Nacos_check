@@ -4,6 +4,7 @@ Nacos 平台在默认配置下未对 token.secret.key 进行修改，攻击者�
 
 
 #工具利用
+
 python nacos_check.py -u http://127.0.0.1:1111 单个url测试
 
 python nacos_check.py -f url.txt 批量检测
