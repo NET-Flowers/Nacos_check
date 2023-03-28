@@ -87,7 +87,7 @@ def urltest(url):
 #漏洞检测
 def vultest(url):
     try:
-        response = requests.post(url, data=data, headers=headers,proxies=proxies,verify=False , timeout=3)
+        response = requests.post(url, data=data, headers=headers,verify=False , timeout=3)
         # 检查响应头的状态码是否为200
         if response.status_code == 200 and ("Authorization" in response.headers):
             vulurl.append(url)
